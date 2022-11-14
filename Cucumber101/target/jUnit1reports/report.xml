@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="110.089">
+    <testcase classname="Login Feature" name="Login as a authenticated user with parameterised value" time="83.328">
+        <failure message="Browsing context has been discarded&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [8ad444a6-fdda-412c-9323-e008c1125d5d, findElement {using=xpath, value=/html/body/div[2]/div/div[3]/p/a[1]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.5, moz:accessibilityChecks: false, moz:buildID: 20221104133228, moz:debuggerAddress: 127.0.0.1:51556, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33252, moz:profile: C:\Users\kbnav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:51556/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 8ad444a6-fdda-412c-9323-e008c1125d5d" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user is  on homepage..................................................passed
+When user navigates to Login Page...........................................failed
+And user enters chandan and ajajjsj.........................................skipped
+Then success message is displayed...........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8ad444a6-fdda-412c-9323-e008c1125d5d, findElement {using=xpath, value=/html/body/div[2]/div/div[3]/p/a[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.5, moz:accessibilityChecks: false, moz:buildID: 20221104133228, moz:debuggerAddress: 127.0.0.1:51556, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33252, moz:profile: C:\Users\kbnav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:51556/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ad444a6-fdda-412c-9323-e008c1125d5d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at stepdefnition.newdef.user_navigates_to_login_page(newdef.java:26)
+	at ✽.user navigates to Login Page(file:///C:/Users/kbnav/eclipse-workspace2/Cucumber101/src/test/java/feature/login1.feature:9)
+]]></failure>
+    </testcase>
+    <testcase classname="Login Feature" name="Login as a authenticated user with parameterised value 2" time="12.116">
+        <system-out><![CDATA[Given user is  on homepage..................................................passed
+When user navigates to Login Page...........................................passed
+And user enters keerthi and qwerty..........................................passed
+Then success message is displayed...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="Login as a authenticated user with parameterised value 3" time="14.446">
+        <system-out><![CDATA[Given user is  on homepage..................................................passed
+When user navigates to Login Page...........................................passed
+And user enters Navya and ahh1hhk2..........................................passed
+Then success message is displayed...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
